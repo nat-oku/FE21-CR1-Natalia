@@ -1,11 +1,16 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 img {
 	display: block;
 	width: 100%;
 	height: auto;
+  padding: 15px 0px;
+}
+
+h1, h3, h4, p {
+  word-wrap: break-word; /* add auto new line when re-sizing screen*/
 }
 
 a {
@@ -15,23 +20,33 @@ a {
 
 /* styling logo section */
 .logo {
-  height: 80px;
+  background-color: #cabbb7;
+  height: 110px;
 }
 
-#logo-img {
+div[class="logo"] > p {
+  position: relative;
+  top: 55px;
+  left: 40px;
+  display: inline-block;
+  width: 50%;
+}
+
+#logo-header {
   width: 200px;
-  padding-top: 20px;
-  margin: 0px auto;
+  float: right;
+  padding: 30px 30px 0px 0px;
 }
 
 /* styling navbar */
 ul {
   list-style: none;
-  float: left;
+  text-align: right;
   width: 100%;
-  height: 50px;
-  background-color: #E78301;
-  padding-top: 15px;
+  height: 40px;
+  background-color: #c65252;
+  padding-top: 10px;
+  padding-right: 60px;
 }
 
 li {
@@ -42,77 +57,71 @@ ul a {
   color: white;
   padding: 0px 10px;
   font-weight: 400;
-  font-size: 1.3em;
-  text-decoration: none;
+  font-size: 1.2em;
 }
 
-a:hover {
-  color: #4d4b4b;
-  text-decoration: underline;
+/* styling main section */
+main div {
+  margin: 0 auto; /* center all div(s) in main  */
 }
 
-.contact {
-  float: right;
-  margin-right: 20px;
-}
-
-/* styling banner container */
-div > h1 {
+/* styling main section - page headline */
+h1 {
   text-align: center;
-  width: 100%;
-  position: relative;
-  top: -70px;
-  font-weight: 300;
-  font-size: 2em;
-  color: #fff;
-  background-color: rgba(104,96,96,0.75);
-  height: 50px;
-  word-wrap: break-word;
+  padding: 30px;
+  font-size: 2.8em;
 }
 
-/* styling audio section */
+/* styling hero img */
+.hero {
+  width: 90%;
+}
+
+div > figcaption[class="desc-hero"] {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* styling article section */
 .box-wrapper {
-  width: 95%;
-  margin: 0 auto;
+  width: 90%;
 }
 
 .box {
+  width: 50%;
   float: left;
-  width: 33.33%;
-  padding-right: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.columns {
+.article-column {
   float: left;
   width: 100%;
-  padding: 20px 0;
-  box-sizing: border-box;
-  text-align: center;
-  }
-
-.box:last-child {
-  padding-right: 0;
 }
 
-/* styling iframe audio */
-iframe {
-  box-shadow: 0px 12px 21px -1px rgba(104,96,96,0.75);
-  max-width: 100%;
+.article1 {
+  padding-right: 30px;
 }
 
-/* styling footer*/
+.article2 {
+  padding-left: 30px;
+}
+
+/* styling footer */
 footer {
-  background-color: #E78301;
+  background-color: #cabbb7;
   width: 100%;
-  height: 50px;
+  height: 150px;
   display: inline-block;
-  text-align: center;
 }
 
-#footer-text {
+footer > img {
+  margin: 0 auto;
+  width: 200px;
+  padding-top: 20px;
+}
+
+footer > h4 {
+  text-align: center;
   font-weight: 300;
   padding-top: 20px;
-  color: #fff;
 }
-
