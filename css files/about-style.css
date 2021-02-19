@@ -1,11 +1,10 @@
-/* styling main section */
+/* styling the box-wrapper */
 main div {
   margin: 0 auto; /* center all div(s) in main  */
 }
 
 .box-wrapper {
   width: 90%;
-  padding-top: 100px;
 }
 
 .box {
@@ -19,11 +18,17 @@ main div {
   width: 100%;
 }
 
+/* styling the img in the main section */
+.article-img {
+  border-radius: 50%;
+}
+
 .article1 {
   padding-right: 30px;
   width: 40%;
 }
 
+/* styling text in the main section */
 .article2 {
   padding-left: 30px;
 }
@@ -35,3 +40,4 @@ main div {
 span {
 text-align: justify;
 }
+
