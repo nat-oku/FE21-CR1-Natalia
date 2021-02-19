@@ -63,23 +63,3 @@ div > figcaption[class="desc-hero"] {
 .article2 {
   padding-left: 30px;
 }
-
-/* styling footer */
-footer {
-  background-color: #cabbb7;
-  width: 100%;
-  height: 150px;
-  display: inline-block;
-}
-
-footer > img {
-  margin: 0 auto;
-  width: 200px;
-  padding-top: 20px;
-}
-
-footer > h4 {
-  text-align: center;
-  font-weight: 300;
-  padding-top: 20px;
-}
