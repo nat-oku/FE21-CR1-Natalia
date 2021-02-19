@@ -8,6 +8,11 @@ img {
 	height: auto;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* styling logo section */
 .logo {
   height: 80px;
@@ -52,16 +57,20 @@ a:hover {
 }
 
 /* styling banner container */
-div#banner-container {
-  position: absolute;
-}
-
 div > h1 {
-  display: inline-block;
-  background-color: royalblue;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  top: -70px;
+  font-weight: 300;
+  font-size: 2em;
+  color: #fff;
+  background-color: rgba(104,96,96,0.75);
+  height: 50px;
+  word-wrap: break-word;
 }
 
-/* styling 3-column-article section */
+/* styling audio section */
 .box-wrapper {
   width: 95%;
   margin: 0 auto;
