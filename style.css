@@ -82,10 +82,6 @@ div > figcaption[class="desc-hero"] {
   margin-bottom: 20px;
 }
 
-.article-wrapper {
-  background-color: cornflowerblue;
-}
-
 /* styling article section */
 .article-wrapper {
   width: 90%;
@@ -111,7 +107,6 @@ div > img[class="article-img"] {
 div > figcaption[class="desc-article"] {
   margin-top: 10px;
   margin-bottom: 20px;
-  background-color: crimson;
 }
 
 /* styling footer */
@@ -126,7 +121,6 @@ footer > img {
 }
 
 footer > h4 {
-  background-color: cyan;
   text-align: center;
   font-weight: 300;
   padding-top: 20px;
