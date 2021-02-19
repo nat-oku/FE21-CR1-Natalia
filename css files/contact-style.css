@@ -1,0 +1,35 @@
+/* styling form */
+main {
+  text-align: center;
+}
+
+form {
+  padding: 20px 0px;
+}
+
+.space {
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="email"]  {
+  border-radius: 30px;
+  border: 1px solid rgba(202, 187, 183, 0.8);
+  padding: 10px;
+  width: 40%;
+  box-shadow: 10px 5px 5px rgb(202,187,183, 0.8);
+}
+
+input[type="submit"] {
+  background-color: rgba(202, 187, 183);
+  border: none;
+  color: #000;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1.5;
+  letter-spacing: 2px;
+}
