@@ -115,3 +115,19 @@ div > figcaption[class="desc-article"] {
 }
 
 /* styling footer */
+footer {
+  background-color: #cabbb7;
+  height: 150px;
+}
+
+footer > img {
+  margin: 0 auto;
+  width: 200px;
+}
+
+footer > h4 {
+  background-color: cyan;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 20px;
+}
