@@ -49,3 +49,15 @@ a:hover {
   float: right;
   margin-right: 20px;
 }
+
+/* styling banner container */
+div#banner-container {
+  position: absolute;
+}
+
+div > h1 {
+  display: inline-block;
+  background-color: royalblue;
+  position: relative;
+  top: -10px;
+}
