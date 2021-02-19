@@ -114,16 +114,4 @@ div > figcaption[class="desc-article"] {
   background-color: crimson;
 }
 
-/* styling footer section
-footer {
-  background-color: #cabbb7;
-}
-footer > h4, img { /* trying something out - selecting two decendants of a parent element
-  text-align: center;
-  margin: 0 auto;
-  padding: 10px 0px;
-}
-
-#logo-footer {
-  width: 20%;
-} */
+/* styling footer */
