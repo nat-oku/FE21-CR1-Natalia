@@ -6,7 +6,7 @@ main div {
 /* styling main section - page headline */
 h1 {
   text-align: center;
-  padding: 30px;
+  padding: 0px 30px 30px;
   font-size: 2.8em;
 }
 
