@@ -1,11 +1,16 @@
 body {
   font-family: 'Roboto', sans-serif;
+  overflow: hidden;
 }
 
 img {
 	display: block;
 	width: 100%;
 	height: auto;
+}
+
+p, h1, h3, h4 {
+  word-wrap: break-word; /* add auto new line when re-sizing screen*/
 }
 
 /*background colors for better differentiation between blocks*/
@@ -20,18 +25,21 @@ nav {
   height: 110px;
 }
 
+div[class="logo"] > p {
+  background-color: chocolate;
+  position: relative;
+  top: 55px;
+  left: 40px;
+  display: inline-block;
+  width: 50%;
+}
+
 #logo-header {
   width: 200px;
   float: right;
-  margin: 20px 30px;
+  padding-right: 30px;
+  padding-top: 30px;
 }
-
-div[class="logo"] > p {
-  float: left;
-  margin: 40px 30px;
-  font-weight: 400;
-}
-
 
 /* styling navbar */
 nav {
