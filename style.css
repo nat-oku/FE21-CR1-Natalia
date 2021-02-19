@@ -13,6 +13,11 @@ p, h1, h3, h4 {
   word-wrap: break-word; /* add auto new line when re-sizing screen*/
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* styling logo section */
 .logo {
   background-color: #cabbb7;
@@ -51,7 +56,6 @@ li {
 ul a {
   color: white;
   padding: 0px 10px;
-  text-decoration: none;
   font-weight: 400;
   font-size: 1.2em;
 }
@@ -78,7 +82,28 @@ div > figcaption[class="desc-hero"] {
   margin-bottom: 20px;
 }
 
+.article-wrapper {
+  background-color: cornflowerblue;
+}
+
 /* styling article section */
+.article-wrapper {
+  width: 90%;
+  height: 300px;
+}
+
+.article1 {
+  float: left;
+  width: 48%;
+  margin-right: 5px;
+}
+
+.article2 {
+  float: right;
+  width: 48%;
+  margin-left: 5px;
+}
+
 div > img[class="article-img"] {
   margin: 10px 0px;
 }
@@ -86,21 +111,7 @@ div > img[class="article-img"] {
 div > figcaption[class="desc-article"] {
   margin-top: 10px;
   margin-bottom: 20px;
-}
-
-.article-wrapper {
-  width: 90%;
-  height: 300px;
-}
-.article1 {
-  float: left;
-  width: 48%;
-  margin-right: 5px;
-}
-.article2 {
-  float: right;
-  width: 48%;
-  margin-left: 5px;
+  background-color: crimson;
 }
 
 /* styling footer section
