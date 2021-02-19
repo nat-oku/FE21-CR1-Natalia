@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
 }
 
 img {
@@ -16,7 +15,7 @@ p, h1, h3, h4 {
 /*background colors for better differentiation between blocks*/
 
 nav {
-  background-color: brown;
+  background-color: #c65252;
 }
 
 /* styling logo section */
