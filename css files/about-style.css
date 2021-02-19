@@ -1,21 +1,7 @@
 /* styling the box-wrapper */
-main div {
-  margin: 0 auto; /* center all div(s) in main  */
-}
-
-.box-wrapper {
-  width: 90%;
-}
-
 .box {
-  width: 50%;
-  float: left;
-  margin-bottom: 20px;
-}
-
-.article-column {
-  float: left;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto 50px auto; /* center elements */
 }
 
 /* styling the img in the main section */
@@ -23,16 +9,7 @@ main div {
   border-radius: 50%;
 }
 
-.article1 {
-  padding-right: 30px;
-  width: 40%;
-}
-
 /* styling text in the main section */
-.article2 {
-  padding-left: 30px;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
