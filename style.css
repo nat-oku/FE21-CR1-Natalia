@@ -20,7 +20,7 @@ nav {
   height: 110px;
 }
 
-#logo-pic {
+#logo-header {
   width: 200px;
   float: right;
   margin: 20px 30px;
@@ -78,7 +78,47 @@ main div {
   margin-top: 50px;
 }
 
-h3 {
+div > figcaption[class="desc-hero"] {
   text-align: center;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* styling article section */
+div > img[class="article-img"] {
+  margin: 10px 0px;
+}
+
+div > figcaption[class="desc-article"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.article-wrapper {
+  width: 90%;
+  height: 300px;
+}
+.article1 {
+  float: left;
+  width: 4%;
+  margin-right: 5px;
+}
+.article2 {
+  float: right;
+  width: 48%;
+  margin-left: 5px;
+}
+
+/* styling footer section */
+footer {
+  background-color: #cabbb7;
+}
+footer > h4, img { /* trying something out - selecting two decendants of a parent element*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0px;
+}
+
+#logo-footer {
+  width: 20%;
 }
