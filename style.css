@@ -6,10 +6,10 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
-  padding: 10px 0px; /* add the same padding setting for all images*/
+  padding: 10px 0px; /* add the same padding setting for all images */
 }
 
-p, h1, h3, h4 {
+h1, h3, h4, p {
   word-wrap: break-word; /* add auto new line when re-sizing screen*/
 }
 
