@@ -90,6 +90,7 @@ div > figcaption[class="desc-hero"] {
 .article-wrapper {
   width: 90%;
   display: flex; /* I did a nice solution with flex - using the "flex property" the website is responsive in different web browser sizes */
+  margin-bottom: 20px;
 }
 
 .article1 {
