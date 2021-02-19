@@ -1,22 +1,3 @@
-body {
-  font-family: sans-serif;
-}
-
-img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-h1, p {
-  word-wrap: break-word;
-}
-
 /* styling banner container */
 div > h1 {
   text-align: center;
