@@ -1,0 +1,128 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+  padding: 10px 0px; /* add the same padding setting for all images */
+}
+
+h1, h3, h4, p {
+  word-wrap: break-word; /* add auto new line when re-sizing screen*/
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* styling logo section */
+.logo {
+  background-color: chocolate;
+  height: 110px;
+}
+
+div[class="logo"] > p {
+  position: relative;
+  top: 55px;
+  left: 40px;
+  display: inline-block;
+  width: 50%;
+}
+
+#logo-header {
+  width: 200px;
+  float: right;
+  padding: 30px 30px 0px 0px;
+}
+
+/* styling navbar */
+ul {
+  list-style: none;
+  text-align: right;
+  width: 100%;
+  height: 40px;
+  background-color: #c65252;
+  padding-top: 10px;
+  padding-right: 60px;
+}
+
+li {
+  display: inline;
+}
+
+ul a {
+  color: white;
+  padding: 0px 10px;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+/* styling main section */
+main div {
+  margin: 0 auto; /* center all div(s) in main  */
+}
+
+/* styling main section - page headline */
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-size: 2.8em;
+}
+
+/* styling hero img */
+.hero {
+  width: 90%;
+}
+
+div > figcaption[class="desc-hero"] {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* styling article section */
+.article-wrapper {
+  width: 90%;
+  display: flex; /* I did a nice solution with flex - using the "flex property" the website is responsive in different web browser sizes */
+  margin-bottom: 20px;
+}
+
+.article1 {
+  float: left;
+  width: 48%;
+  margin-right: 5px;
+}
+
+.article2 {
+  width: 48%;
+  margin-left: 5px;
+}
+
+div > img[class="article-img"] {
+  margin: 10px 0px;
+}
+
+div > figcaption[class="desc-article"] {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* styling footer */
+footer {
+  background-color: #cabbb7;
+  height: 150px;
+}
+
+footer > img {
+  margin: 0 auto;
+  width: 200px;
+  padding-top: 20px;
+}
+
+footer > h4 {
+  text-align: center;
+  font-weight: 300;
+  padding-top: 20px;
+}
