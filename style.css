@@ -56,17 +56,16 @@ ul a {
   font-size: 1.2em;
 }
 
+/* styling main section */
+main div {
+  margin: 0 auto; /* center all div(s) in main  */
+}
+
 /* styling main section - page headline */
 h1 {
   text-align: center;
-  margin: 30px;
+  padding: 30px;
   font-size: 2.8em;
-}
-
-/* styling main section */
-
-main div {
-  margin: 0 auto; /* center all div(s) in main  */
 }
 
 /* styling hero img */
