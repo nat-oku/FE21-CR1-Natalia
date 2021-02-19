@@ -6,7 +6,7 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
-  padding: 10px 0px; /* add the same padding setting for all images */
+  padding: 15px 0px;
 }
 
 h1, h3, h4, p {
@@ -20,7 +20,7 @@ a {
 
 /* styling logo section */
 .logo {
-  background-color: chocolate;
+  background-color: #cabbb7;
   height: 110px;
 }
 
@@ -83,36 +83,35 @@ div > figcaption[class="desc-hero"] {
 }
 
 /* styling article section */
-.article-wrapper {
+.box-wrapper {
   width: 90%;
-  display: flex; /* I did a nice solution with flex - using the "flex property" the website is responsive in different web browser sizes */
+}
+
+.box {
+  width: 50%;
+  float: left;
   margin-bottom: 20px;
+}
+
+.article-column {
+  float: left;
+  width: 100%;
 }
 
 .article1 {
-  float: left;
-  width: 48%;
-  margin-right: 5px;
+  padding-right: 30px;
 }
 
 .article2 {
-  width: 48%;
-  margin-left: 5px;
-}
-
-div > img[class="article-img"] {
-  margin: 10px 0px;
-}
-
-div > figcaption[class="desc-article"] {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-left: 30px;
 }
 
 /* styling footer */
 footer {
   background-color: #cabbb7;
+  width: 100%;
   height: 150px;
+  display: inline-block;
 }
 
 footer > img {
