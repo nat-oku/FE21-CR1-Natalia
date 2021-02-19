@@ -18,40 +18,6 @@ a {
   cursor: pointer;
 }
 
-/* styling navbar */
-.nav, div[class="logo"] {
-  position: fixed;
-}
-
-ul {
-  list-style: none;
-  float: left;
-  width: 100%;
-  height: 50px;
-  background-color: #0E9594;
-  padding-top: 10px;
-  padding-left: 15px;
-}
-
-li {
-  display: inline;
-}
-
-ul a {
-  color: white;
-  padding: 0px 10px;
-  font-size: 1em;
-}
-
-/* styling logo */
-.logo {
-position: absolute;
-top: 5px;
-right: 40px;
-font-size: 1.2em;
-color: #fff;
-}
-
 /* styling main section */
 main div {
   margin: 0 auto; /* center all div(s) in main  */
@@ -88,19 +54,4 @@ main div {
 
 span {
 text-align: justify;
-}
-
-/* styling footer */
-footer {
-  background-color: #0E9594;
-  color: #fff;
-  width: 100%;
-  height: 60px;
-  display: inline-block;
-}
-
-footer > h4 {
-  text-align: center;
-  font-weight: 300;
-  padding: 15px 0px;
 }
