@@ -6,6 +6,7 @@ img {
 	display: block;
 	width: 100%;
 	height: auto;
+  padding: 10px 0px; /* add the same padding setting for all images*/
 }
 
 p, h1, h3, h4 {
@@ -29,8 +30,7 @@ div[class="logo"] > p {
 #logo-header {
   width: 200px;
   float: right;
-  padding-right: 30px;
-  padding-top: 30px;
+  padding: 30px 30px 0px 0px;
 }
 
 /* styling navbar */
@@ -73,13 +73,8 @@ h1 {
   width: 90%;
 }
 
-.hero-img {
-  margin-top: 50px;
-}
-
 div > figcaption[class="desc-hero"] {
   text-align: center;
-  margin-top: 10px;
   margin-bottom: 20px;
 }
 
@@ -108,11 +103,11 @@ div > figcaption[class="desc-article"] {
   margin-left: 5px;
 }
 
-/* styling footer section */
+/* styling footer section
 footer {
   background-color: #cabbb7;
 }
-footer > h4, img { /* trying something out - selecting two decendants of a parent element*/
+footer > h4, img { /* trying something out - selecting two decendants of a parent element
   text-align: center;
   margin: 0 auto;
   padding: 10px 0px;
@@ -120,4 +115,4 @@ footer > h4, img { /* trying something out - selecting two decendants of a paren
 
 #logo-footer {
   width: 20%;
-}
+} */
