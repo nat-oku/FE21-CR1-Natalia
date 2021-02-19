@@ -89,7 +89,7 @@ div > figcaption[class="desc-hero"] {
 /* styling article section */
 .article-wrapper {
   width: 90%;
-  height: 300px;
+  display: flex; /* I did a nice solution with flex - using the "flex property" the website is responsive in different web browser sizes */
 }
 
 .article1 {
@@ -99,7 +99,6 @@ div > figcaption[class="desc-hero"] {
 }
 
 .article2 {
-  float: right;
   width: 48%;
   margin-left: 5px;
 }
