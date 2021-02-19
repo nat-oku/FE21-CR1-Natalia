@@ -1,5 +1,24 @@
 /* file containing styles for logo, navbar and footer */
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+  padding: 15px 0px;
+}
+
+h1, h3, h4, p {
+  word-wrap: break-word; /* add auto new line when re-sizing screen*/
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* styling logo section */
 .logo {
