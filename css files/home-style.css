@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* styling logo section */
+.logo {
+  height: 80px;
+}
+
+#logo-img {
+  width: 200px;
+  padding-top: 20px;
+  margin: 0px auto;
+}
+
+/* styling navbar */
+ul {
+  list-style: none;
+  float: left;
+  width: 100%;
+  height: 50px;
+  background-color: #7E7E7E;
+  padding-top: 15px;
+}
+
+li {
+  display: inline;
+}
+
+ul a {
+  color: white;
+  padding: 0px 10px;
+  font-weight: 400;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E78301;
+}
+
+.contact {
+  float: right;
+  margin-right: 20px;
+}
