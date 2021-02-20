@@ -1,3 +1,8 @@
+/* add height to main section */
+main {
+  height: 125vh;
+}
+
 /* styling the box-wrapper */
 .box {
   width: 80%;
