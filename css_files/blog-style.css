@@ -1,3 +1,8 @@
+/* add height to main */
+main {
+  height: 80vh;
+}
+
 /* styling banner container */
 div > h1 {
   text-align: center;
@@ -12,7 +17,7 @@ div > h1 {
 }
 
 /* styling the page description */
-span > p {
+p[class="welcome-text"] {
   background-color: rgba(104,96,96,0.1);
   border-radius: 10px;
   text-align: center;
