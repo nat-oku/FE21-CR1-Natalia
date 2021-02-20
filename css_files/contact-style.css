@@ -1,6 +1,7 @@
 /* styling form */
 main {
   text-align: center;
+  height: 100vh;
 }
 
 form {
